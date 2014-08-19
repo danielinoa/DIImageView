@@ -28,3 +28,7 @@ Author
 ------
 
 Daniel Inoa, www.danielinoa.com
+
+## License
+
+DIImageView is available under the MIT license. See the LICENSE file for more info.
