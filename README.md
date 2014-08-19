@@ -18,6 +18,8 @@ Usage
 DIImageView *imageView = [[DIImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 320)];
 [imageView setImage: [UIImage imageNamed:@"alley.jpg"]];
 [self.view addSubview:imageView];
+
+// After initialization tap imageView to dynamically create caption.
 ```
 
 ## Requirements
