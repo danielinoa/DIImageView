@@ -97,6 +97,7 @@ replacementString:(NSString *)string{
 - (BOOL)textFieldShouldReturn:(UITextField *)textField{
     
     [caption resignFirstResponder];
+    caption.alpha = ([caption.text isEqualToString:@""]) ? 0 : caption.alpha;
     return true;
 }
 
