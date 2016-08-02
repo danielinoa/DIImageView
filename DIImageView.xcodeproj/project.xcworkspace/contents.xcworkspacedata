@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:DIImageView.xcodeproj">
+      location = "self:DIImageVIew.xcodeproj">
    </FileRef>
 </Workspace>

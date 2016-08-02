@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>DIImageView.xcscheme</key>
+		<key>DIImageVIew.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0129200419A2934400DE1736</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>0129202519A2934400DE1736</key>
+		<key>0154EBE71D4ED868008AEB8A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
