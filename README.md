@@ -9,18 +9,7 @@ A Snapchat-like caption integrated within a regular UIImageView.
 Installation
 ------------
 
-Simply add DIImageView.h/m into your project.
-
-Usage
------
-```objective-c
-// Example
-DIImageView *imageView = [[DIImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 320)];
-[imageView setImage: [UIImage imageNamed:@"alley.jpg"]];
-[self.view addSubview:imageView];
-
-// After initialization tap imageView to dynamically create caption.
-```
+Simply add DIImageView.swift into your project.
 
 ## Requirements
 
