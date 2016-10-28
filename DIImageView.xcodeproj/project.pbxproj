@@ -100,10 +100,12 @@
 				TargetAttributes = {
 					0154EBE71D4ED868008AEB8A = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = A8SJS26GGQ;
+						LastSwiftMigration = 0810;
 					};
 				};
 			};
-			buildConfigurationList = 0154EBE31D4ED868008AEB8A /* Build configuration list for PBXProject "DIImageVIew" */;
+			buildConfigurationList = 0154EBE31D4ED868008AEB8A /* Build configuration list for PBXProject "DIImageView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -237,11 +239,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = A8SJS26GGQ;
 				INFOPLIST_FILE = DIImageVIew/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.danielinoa.DIImageVIew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -250,17 +254,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = A8SJS26GGQ;
 				INFOPLIST_FILE = DIImageVIew/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.danielinoa.DIImageVIew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0154EBE31D4ED868008AEB8A /* Build configuration list for PBXProject "DIImageVIew" */ = {
+		0154EBE31D4ED868008AEB8A /* Build configuration list for PBXProject "DIImageView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0154EBF81D4ED868008AEB8A /* Debug */,
