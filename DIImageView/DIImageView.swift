@@ -62,8 +62,8 @@ class DIImageView: UIImageView, UITextFieldDelegate {
     
     // MARK: - Gestures
     
-    fileprivate lazy var tapRecognizer: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(tapped(_:)))
-    fileprivate lazy var panRecognizer: UIPanGestureRecognizer = UIPanGestureRecognizer(target: self, action: #selector(panned(_:)))
+    private lazy var tapRecognizer: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(tapped(_:)))
+    private lazy var panRecognizer: UIPanGestureRecognizer = UIPanGestureRecognizer(target: self, action: #selector(panned(_:)))
     
     @objc private func tapped(_ sender: AnyObject) {
         if caption.isFirstResponder {
