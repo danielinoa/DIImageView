@@ -13,8 +13,8 @@ Simply add DIImageView.swift into your project.
 
 ## Requirements
 
-* iOS 7.0+ and XCode 5.1+
-* Swift 2.2
+* iOS 10.0+ and Xcode 8.0+
+* Swift 3.0
 
 Author
 ------
