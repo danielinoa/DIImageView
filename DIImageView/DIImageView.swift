@@ -89,10 +89,13 @@ class DIImageView: UIImageView, UITextFieldDelegate {
         return (textSize.width + 16 < textField.bounds.size.width)
     }
     
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        guard caption == textField else { return }
+        caption.isHidden = caption.text?.isEmpty ?? true
+    }
+    
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         guard caption == textField else { return true }
-        caption.resignFirstResponder()
-        caption.isHidden = caption.text?.isEmpty ?? true
         return caption.resignFirstResponder()
     }
     
