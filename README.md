@@ -16,10 +16,12 @@ Simply add DIImageView.swift into your project.
 * iOS 10.0+ and Xcode 8.0+
 * Swift 3.0
 
-Author
-------
+## Contributors
 
-Daniel Inoa, www.danielinoa.com
+* [Daniel Inoa](https://www.danielinoa.com)
+* [Duncan Cunningham](https://github.com/sirnacnud) 
+
+Daniel Inoa, 
 
 ## License
 
