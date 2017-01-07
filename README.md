@@ -21,8 +21,6 @@ Simply add DIImageView.swift into your project.
 * [Daniel Inoa](https://www.danielinoa.com)
 * [Duncan Cunningham](https://github.com/sirnacnud) 
 
-Daniel Inoa, 
-
 ## License
 
 DIImageView is available under the MIT license. See the LICENSE file for more info.
