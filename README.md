@@ -9,7 +9,7 @@ A Snapchat-like caption integrated within a regular UIImageView.
 Installation
 ------------
 
-Simply add DIImageView.swift into your project.
+Simply add `DIImageView.swift` into your project.
 
 ## Requirements
 
