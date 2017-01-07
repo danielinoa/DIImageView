@@ -12,7 +12,6 @@
 		012B74551D505C330054E4DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012B744E1D505C330054E4DA /* Main.storyboard */; };
 		012B74561D505C330054E4DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 012B744F1D505C330054E4DA /* Assets.xcassets */; };
 		012B74571D505C330054E4DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012B74501D505C330054E4DA /* LaunchScreen.storyboard */; };
-		012B74581D505C330054E4DA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 012B74511D505C330054E4DA /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,7 +91,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Daniel Inoa";
 				TargetAttributes = {
 					0154EBE71D4ED868008AEB8A = {
@@ -125,7 +124,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				012B74581D505C330054E4DA /* Info.plist in Resources */,
 				012B74571D505C330054E4DA /* LaunchScreen.storyboard in Resources */,
 				012B74561D505C330054E4DA /* Assets.xcassets in Resources */,
 				012B74551D505C330054E4DA /* Main.storyboard in Resources */,
@@ -161,8 +159,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -206,8 +206,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -226,6 +228,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
