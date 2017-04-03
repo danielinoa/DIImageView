@@ -1,0 +1,6 @@
+framework module DIImageView {
+  umbrella header "DIImageView-umbrella.h"
+
+  export *
+  module * { export * }
+}

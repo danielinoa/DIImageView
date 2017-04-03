@@ -1,0 +1,16 @@
+PODS:
+  - DIImageView (1.0.0)
+
+DEPENDENCIES:
+  - DIImageView (from `../`)
+
+EXTERNAL SOURCES:
+  DIImageView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DIImageView: 893ebfafb92ba13d71cef6ea050ac946ac0c8882
+
+PODFILE CHECKSUM: 6c598e430661786b3fe76fa28b7710e2072566fa
+
+COCOAPODS: 1.2.0

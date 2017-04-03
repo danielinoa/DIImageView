@@ -1,0 +1,5 @@
+use_frameworks!
+
+target 'DIImageView_Example' do
+  pod 'DIImageView', :path => '../'
+end
