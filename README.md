@@ -17,11 +17,13 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 * iOS 8.0+ and Xcode 8.0+
 * Swift 3.0+
 
-## Manual Installation
+## Installation
+
+### Manual
 
 Simply add `DIImageView.swift` into your project.
 
-## CocoaPods Installation
+### CocoaPods
 
 DIImageView is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
