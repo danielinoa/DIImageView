@@ -8,6 +8,9 @@ A Snapchat-like caption integrated within a regular UIImageView.
 [![License](https://img.shields.io/cocoapods/l/DIImageView.svg?style=flat)](http://cocoapods.org/pods/DIImageView)
 [![Platform](https://img.shields.io/cocoapods/p/DIImageView.svg?style=flat)](http://cocoapods.org/pods/DIImageView)
 
+![image](https://github.com/danielinoa/DIImageView/blob/master/Screenshots/ss1.png)
+![image](https://github.com/danielinoa/DIImageView/blob/master/Screenshots/ss2.png)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
