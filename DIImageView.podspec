@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.summary          = 'A Snapchat-inspired caption integrated within a regular UIImageView'
 
   s.homepage         = 'https://github.com/danielinoa/DIImageView'
-  s.screenshots     = 'https://github.com/danielinoa/DIImageView/blob/master/Screenshots/ss1.png', 'https://github.com/danielinoa/DIImageView/blob/master/Screenshots/ss2.png'
+  # s.screenshots     = 'https://github.com/danielinoa/DIImageView/blob/master/Screenshots/ss1.png', 'https://github.com/danielinoa/DIImageView/blob/master/Screenshots/ss2.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'danielinoa' => 'danielinoa@gmail.com' }
   s.source           = { :git => 'https://github.com/danielinoa/DIImageView.git', :tag => s.version.to_s }

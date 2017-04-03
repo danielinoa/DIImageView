@@ -31,7 +31,7 @@ open class DIImageView: UIImageView, UITextFieldDelegate {
         super.init(coder: aDecoder)
     }
 
-    public override func awakeFromNib() {
+    open override func awakeFromNib() {
         super.awakeFromNib()
         configure()
     }
@@ -64,7 +64,7 @@ open class DIImageView: UIImageView, UITextFieldDelegate {
         }
     }
     
-    public override func layoutSubviews() {
+    open override func layoutSubviews() {
         super.layoutSubviews()
         let captionSize = CGSize(width: bounds.size.width, height: 32)
         caption.bounds = CGRect(origin: CGPoint.zero, size: captionSize)
