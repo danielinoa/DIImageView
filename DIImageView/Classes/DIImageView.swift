@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class DIImageView: UIImageView, UITextFieldDelegate {
+open class DIImageView: UIImageView, UITextFieldDelegate {
     
     // MARK: - Lifecycle
     
