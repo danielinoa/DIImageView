@@ -68,7 +68,8 @@ open class DIImageView: UIImageView, UITextFieldDelegate {
         super.layoutSubviews()
         let captionSize = CGSize(width: bounds.size.width, height: 32)
         caption.bounds = CGRect(origin: CGPoint.zero, size: captionSize)
-        caption.center = CGPoint(x: center.x, y: captionCenterY)
+        let centerX = bounds.width/2
+        caption.center = CGPoint(x: centerX, y: captionCenterY)
     }
     
     // MARK: - Gestures

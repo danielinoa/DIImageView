@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DIImageView'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'A Snapchat-inspired caption integrated within a regular UIImageView'
 
   s.homepage         = 'https://github.com/danielinoa/DIImageView'
